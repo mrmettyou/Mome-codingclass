@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    background-color: #ffffff;
+    font-family:'Noto Sans';
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  padding: 5px 30px;
+  box-sizing: border-box;
+  z-index: 500;
+  border-bottom: 1px solid #ddd; 
+}
+.header-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-nav{
+  display: flex;
+  gap: 6px;
+  align-items: baseline;
+}
+h1{
+    font-family: 'Noto Serif';
+    font-weight: 100;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
+    color: #7d7d7d;
+     margin-right: 6px;
+}
+a:hover{
+    color:rgb(0, 0, 0);
+    text-transform:capitalize;
+    font-size:larger;
+    font-weight: 400;
+}
+a.active {
+  font-size: 18px;
+  font-weight: normal;
+  color: black;
+  pointer-events: none;
+  cursor: default;
+}
+#publiclinks.class.hover{
+color:rgb(0, 0, 0) ;
+    text-transform:capitalize;
+    font-size:larger;
+    font-weight: 400;
+}
+#publiclinks.active {
+  font-size: 16px;
+  font-weight: normal;
+  color: black;
+  pointer-events: none;
+  cursor: default;
+  text-decoration: underline;
+}
